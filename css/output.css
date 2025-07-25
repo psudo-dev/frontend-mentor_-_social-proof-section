@@ -177,14 +177,17 @@
   }
 }
 @layer utilities {
+  .invisible {
+    visibility: hidden;
+  }
+  .visible {
+    visibility: visible;
+  }
   .absolute {
     position: absolute;
   }
   .relative {
     position: relative;
-  }
-  .static {
-    position: static;
   }
   .top-0 {
     top: calc(var(--spacing) * 0);
@@ -207,14 +210,14 @@
   .mb-20 {
     margin-bottom: calc(var(--spacing) * 20);
   }
-  .contents {
-    display: contents;
-  }
   .flex {
     display: flex;
   }
   .grid {
     display: grid;
+  }
+  .hidden {
+    display: none;
   }
   .table {
     display: table;
@@ -344,38 +347,9 @@
   .underline {
     text-decoration-line: underline;
   }
-  .shadow {
-    --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
-    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-  }
-  .shadow-2xl {
-    --tw-shadow: 0 25px 50px -12px var(--tw-shadow-color, rgb(0 0 0 / 0.25));
-    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-  }
-  .shadow-sm {
-    --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
-    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-  }
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
-  }
-  .transition {
-    transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, visibility, content-visibility, overlay, pointer-events;
-    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
-    transition-duration: var(--tw-duration, var(--default-transition-duration));
-  }
-  .duration-200 {
-    --tw-duration: 200ms;
-    transition-duration: 200ms;
-  }
-  .duration-400 {
-    --tw-duration: 400ms;
-    transition-duration: 400ms;
-  }
-  .ease-out {
-    --tw-ease: var(--ease-out);
-    transition-timing-function: var(--ease-out);
   }
   .\*\:relative {
     :is(& > *) {
@@ -422,20 +396,9 @@
       gap: calc(var(--spacing) * 5);
     }
   }
-  .\*\:bg-amber-500 {
-    :is(& > *) {
-      background-color: var(--color-amber-500);
-    }
-  }
   .\*\:shadow {
     :is(& > *) {
       --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
-      box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-    }
-  }
-  .\*\:shadow-2xl {
-    :is(& > *) {
-      --tw-shadow: 0 25px 50px -12px var(--tw-shadow-color, rgb(0 0 0 / 0.25));
       box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
     }
   }
@@ -445,48 +408,16 @@
       transition-duration: 300ms;
     }
   }
-  .\*\:duration-400 {
-    :is(& > *) {
-      --tw-duration: 400ms;
-      transition-duration: 400ms;
-    }
-  }
   .\*\:ease-out {
     :is(& > *) {
       --tw-ease: var(--ease-out);
       transition-timing-function: var(--ease-out);
     }
   }
-  .hover\:-translate-4 {
-    &:hover {
-      @media (hover: hover) {
-        --tw-translate-x: calc(var(--spacing) * -4);
-        --tw-translate-y: calc(var(--spacing) * -4);
-        translate: var(--tw-translate-x) var(--tw-translate-y);
-      }
-    }
-  }
-  .hover\:translate-4 {
-    &:hover {
-      @media (hover: hover) {
-        --tw-translate-x: calc(var(--spacing) * 4);
-        --tw-translate-y: calc(var(--spacing) * 4);
-        translate: var(--tw-translate-x) var(--tw-translate-y);
-      }
-    }
-  }
   .hover\:-translate-x-4 {
     &:hover {
       @media (hover: hover) {
         --tw-translate-x: calc(var(--spacing) * -4);
-        translate: var(--tw-translate-x) var(--tw-translate-y);
-      }
-    }
-  }
-  .hover\:translate-x-4 {
-    &:hover {
-      @media (hover: hover) {
-        --tw-translate-x: calc(var(--spacing) * 4);
         translate: var(--tw-translate-x) var(--tw-translate-y);
       }
     }
@@ -518,49 +449,6 @@
       }
     }
   }
-  .\*\:hover\:translate-4 {
-    :is(& > *) {
-      &:hover {
-        @media (hover: hover) {
-          --tw-translate-x: calc(var(--spacing) * 4);
-          --tw-translate-y: calc(var(--spacing) * 4);
-          translate: var(--tw-translate-x) var(--tw-translate-y);
-        }
-      }
-    }
-  }
-  .\*\:hover\:-translate-x-4 {
-    :is(& > *) {
-      &:hover {
-        @media (hover: hover) {
-          --tw-translate-x: calc(var(--spacing) * -4);
-          translate: var(--tw-translate-x) var(--tw-translate-y);
-        }
-      }
-    }
-  }
-  .\*\:hover\:-translate-y-4 {
-    :is(& > *) {
-      &:hover {
-        @media (hover: hover) {
-          --tw-translate-y: calc(var(--spacing) * -4);
-          translate: var(--tw-translate-x) var(--tw-translate-y);
-        }
-      }
-    }
-  }
-  .\*\:hover\:scale-1 {
-    :is(& > *) {
-      &:hover {
-        @media (hover: hover) {
-          --tw-scale-x: 1%;
-          --tw-scale-y: 1%;
-          --tw-scale-z: 1%;
-          scale: var(--tw-scale-x) var(--tw-scale-y);
-        }
-      }
-    }
-  }
   .\*\:hover\:scale-110 {
     :is(& > *) {
       &:hover {
@@ -583,62 +471,12 @@
       }
     }
   }
-  .\*\:hover\:duration-100 {
-    :is(& > *) {
-      &:hover {
-        @media (hover: hover) {
-          --tw-duration: 100ms;
-          transition-duration: 100ms;
-        }
-      }
-    }
-  }
-  .\*\:hover\:duration-200 {
-    :is(& > *) {
-      &:hover {
-        @media (hover: hover) {
-          --tw-duration: 200ms;
-          transition-duration: 200ms;
-        }
-      }
-    }
-  }
-  .\*\:hover\:duration-300 {
-    :is(& > *) {
-      &:hover {
-        @media (hover: hover) {
-          --tw-duration: 300ms;
-          transition-duration: 300ms;
-        }
-      }
-    }
-  }
-  .\*\:hover\:duration-400 {
-    :is(& > *) {
-      &:hover {
-        @media (hover: hover) {
-          --tw-duration: 400ms;
-          transition-duration: 400ms;
-        }
-      }
-    }
-  }
   .\*\:hover\:duration-500 {
     :is(& > *) {
       &:hover {
         @media (hover: hover) {
           --tw-duration: 500ms;
           transition-duration: 500ms;
-        }
-      }
-    }
-  }
-  .\*\:hover\:duration-1200 {
-    :is(& > *) {
-      &:hover {
-        @media (hover: hover) {
-          --tw-duration: 1200ms;
-          transition-duration: 1200ms;
         }
       }
     }
@@ -651,6 +489,16 @@
           transition-timing-function: var(--ease-out);
         }
       }
+    }
+  }
+  .sm\:invisible {
+    @media (width >= 40rem) {
+      visibility: hidden;
+    }
+  }
+  .sm\:visible {
+    @media (width >= 40rem) {
+      visibility: visible;
     }
   }
   .sm\:mb-8 {
@@ -736,11 +584,6 @@
       justify-content: flex-end;
     }
   }
-  .lg\:justify-start {
-    @media (width >= 64rem) {
-      justify-content: flex-start;
-    }
-  }
   .lg\:text-left {
     @media (width >= 64rem) {
       text-align: left;
@@ -764,11 +607,6 @@
   .xl\:ml-28 {
     @media (width >= 80rem) {
       margin-left: calc(var(--spacing) * 28);
-    }
-  }
-  .xl\:justify-end {
-    @media (width >= 80rem) {
-      justify-content: flex-end;
     }
   }
   .xl\:px-40 {
@@ -825,6 +663,11 @@ body {
 @property --tw-font-weight {
   syntax: "*";
   inherits: false;
+}
+@property --tw-outline-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
 }
 @property --tw-shadow {
   syntax: "*";
@@ -891,11 +734,6 @@ body {
   inherits: false;
   initial-value: 0 0 #0000;
 }
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
 @property --tw-duration {
   syntax: "*";
   inherits: false;
@@ -944,6 +782,7 @@ body {
       --tw-skew-y: initial;
       --tw-border-style: solid;
       --tw-font-weight: initial;
+      --tw-outline-style: solid;
       --tw-shadow: 0 0 #0000;
       --tw-shadow-color: initial;
       --tw-shadow-alpha: 100%;
@@ -958,7 +797,6 @@ body {
       --tw-ring-offset-width: 0px;
       --tw-ring-offset-color: #fff;
       --tw-ring-offset-shadow: 0 0 #0000;
-      --tw-outline-style: solid;
       --tw-duration: initial;
       --tw-ease: initial;
       --tw-translate-x: 0;

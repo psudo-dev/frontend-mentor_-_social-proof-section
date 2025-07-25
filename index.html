@@ -13,8 +13,12 @@
 </head>
 
 <body class="relative">
-  <img class="absolute top-0 left-0" src="./images/bg-pattern-top-desktop.svg" alt="">
-  <img class="absolute bottom-0 right-0" src="./images/bg-pattern-bottom-desktop.svg" alt="">
+  <img class="absolute top-0 left-0 invisible sm:visible" src="./images/bg-pattern-top-desktop.svg" alt="">
+  <img class="absolute top-0 left-0 visible sm:invisible" src="./images/bg-pattern-top-mobile.svg" alt="">
+
+  <img class="absolute bottom-0 right-0 invisible sm:visible" src="./images/bg-pattern-bottom-desktop.svg" alt="">
+  <img class="absolute bottom-0 right-0 visible sm:invisible" src="./images/bg-pattern-bottom-mobile.svg" alt="">
+
   <main class="mx-auto py-20 px-5 sm:py-32 sm:px-20 xl:pt-30 xl:px-40 xl:pb-24 max-w-[1440px]">
     <div class="flex mb-20 *:flex-1 gap-8 flex-col lg:flex-row">
       <div class="*:hover:scale-110 *:duration-300 *:ease-out *:relative">

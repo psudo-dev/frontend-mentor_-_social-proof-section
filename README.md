@@ -9,9 +9,9 @@
 - [Frontend Mentor - Social Proof Section](#frontend-mentor---social-proof-section)
 	- [Table of Contents](#table-of-contents)
 	- [About](#about-)
+	- [Live Demo](#live-demo-)
 	- [Frontend Mentor](#frontend-mentor-)
 		- [The Challenge](#the-challenge-)
-			- [Social Proof Section](#social-proof-section)
 	- [Commentary](#commentary-)
 	- [Built Using](#built-using-)
 	- [Author](#author-)
@@ -21,6 +21,10 @@
 
 I'm back at studying programming and I've started with the good old HTML and CSS. After finishing the course - and learning a bit of Tailwind - I'm tackling some [Frontend Mentor](https://www.frontendmentor.io) challenges to put into practice everything I've learned as I continue my studies.
 
+## Live Demo <a name = "live-demo"></a>
+
+- [Live Demo](https://glitch-taco-bubble.netlify.app/)
+
 ## Frontend Mentor <a name = "frontend-mentor"></a>
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
@@ -29,7 +33,7 @@ The challenges are pretty straight forward, you have to replicate the page or el
 
 ### The Challenge <a name = "challenge"></a>
 
-#### [Social Proof Section](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA)
+- [Social Proof Section](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA)
 
 Use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 

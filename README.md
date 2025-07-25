@@ -1,4 +1,4 @@
-![Image](design/desktop-preview.jpg)
+![Image](./design/desktop-preview.jpg)
 
 # Frontend Mentor - Social Proof Section
 

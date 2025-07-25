@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+body {
+	font-family: "League Spartan";
+}
+
+@theme {
+	--color-primary-900: hsl(300, 43%, 22%);
+	--color-primary-700: hsl(303, 10%, 53%);
+	--color-primary-300: hsl(333, 80%, 67%);
+	--color-primary-100: hsl(300, 24%, 96%);
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}

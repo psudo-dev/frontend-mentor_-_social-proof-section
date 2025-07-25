@@ -6,26 +6,25 @@
 
 ## Table of Contents
 
-
 - [Frontend Mentor - Social Proof Section](#frontend-mentor---social-proof-section)
 	- [Table of Contents](#table-of-contents)
-	- [About ](#about-)
-	- [Frontend Mentor ](#frontend-mentor-)
-	- [The Challenge ](#the-challenge-)
-	- [Commentary ](#commentary-)
-	- [Built Using ](#built-using-)
+	- [About](#about-)
+	- [Frontend Mentor](#frontend-mentor-)
+	- [The Challenge](#the-challenge-)
+	- [Commentary](#commentary-)
+	- [Built Using](#built-using-)
 
-## About <a name = "about-"></a>
+## About <a name = "about"></a>
 
 I'm returning to learning programming and I've started with the good old HTML and CSS. After finishing the course - and learning a bit of Tailwind - I'm tackling some [Frontend Mentor](https://www.frontendmentor.io) challenges to put into practice everything I've learned as I continue my studying.
 
-## Frontend Mentor <a name = "frontend-mentor-"></a>
+## Frontend Mentor <a name = "frontend-mentor"></a>
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
 The challenges are pretty straight forward, you have to replicate the page or element as closely as possible as the initial image or Figma layout - when provided.
 
-## The Challenge <a name = "challenge-"></a>
+## The Challenge <a name = "challenge"></a>
 
 [Social Proof Section](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA)
 
@@ -39,7 +38,7 @@ Your users should be able to:
 
 Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
 
-## Commentary <a name = "commentary-"></a>
+## Commentary <a name = "commentary"></a>
 
 I've also decided to build some of the challenges with Tailwind CSS since that's new to me. I know it's not the usual way to use Tailwind but it should be a good training.
 
@@ -49,7 +48,7 @@ All in all, I think it got pretty close to the original design - except the mous
 
 To think I used to hate these HTML and CSS challenges - back then when I first learned programming I just wanted to practice JavasScript - but here I am.
 
-## Built Using <a name = "built-using-"></a>
+## Built Using <a name = "built-using"></a>
 
 - HTML
 - CSS

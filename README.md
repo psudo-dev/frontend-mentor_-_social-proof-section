@@ -19,7 +19,7 @@
 
 ## About <a name = "about"></a>
 
-I'm back at studying programming and I've started with the good old HTML and CSS. After finishing the course - and learning a bit of Tailwind - I'm tackling some [Frontend Mentor](https://www.frontendmentor.io) challenges to put into practice everything I've learned as I continue my studies.
+I'm back to studying programming and I've started with the good old HTML and CSS. After finishing the course - and learning a bit of Tailwind - I'm tackling some [Frontend Mentor](https://www.frontendmentor.io) challenges to put into practice everything I've learned as I continue my studies.
 
 ## Live Demo <a name = "live-demo"></a>
 
@@ -45,9 +45,9 @@ Want some support on the challenge? [Join the Frontend Mentor community](https:/
 
 ## Commentary <a name = "commentary"></a>
 
-I've also decided to build some of the challenges with Tailwind CSS since that's new to me. I know it's not the usual way to use Tailwind but it should be a good training.
+I've also decided to build some of the challenges with Tailwind CSS - including this one - since that's new to me. I know it's not the usual way to use Tailwind but it should be a good training.
 
-The most challenging part was the fact that I'm used to think Desktop first and then worry about Mobile later but Tailwind is Mobile first, so I had to rewire my brain to think backwards.
+The most challenging part was the fact that I'm used to think Desktop first and worry about Mobile later but Tailwind is Mobile first, so I had to rewire my brain to think backwards.
 
 All in all, I think it got pretty close to the original design - except the mouse interactions, as I was testing out some Tailwind transitions.
 

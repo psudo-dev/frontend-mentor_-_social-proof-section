@@ -575,7 +575,7 @@
   }
 }
 body {
-  font-family: "League Spartan";
+  font-family: "League Spartan", sans-serif;
 }
 .attribution {
   font-size: 11px;

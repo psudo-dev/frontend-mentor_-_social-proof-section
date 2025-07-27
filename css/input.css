@@ -19,3 +19,43 @@ body {
 .attribution a {
 	color: hsl(228, 45%, 44%);
 }
+
+.main-content {
+	position: relative;
+}
+
+.main-content::before {
+	content: "";
+	background: url("../images/bg-pattern-top-mobile.svg") no-repeat;
+	width: 374px;
+	height: 232px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.main-content::after {
+	content: "";
+	background: url("../images/bg-pattern-bottom-mobile.svg") no-repeat;
+	width: 503px;
+	height: 375px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+}
+
+@media (min-width: 640px) {
+	.main-content::before {
+		background: url("../images/bg-pattern-top-desktop.svg") no-repeat;
+		height: 362px;
+		width: 584px;
+	}
+
+	.main-content::after {
+		background: url("../images/bg-pattern-bottom-desktop.svg") no-repeat;
+		width: 1085px;
+		height: 673px;
+	}
+}

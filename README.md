@@ -58,7 +58,7 @@ To think I used to hate these HTML and CSS challenges - back then when I first l
 - HTML
 - CSS
 	- Flexbox
-	- CSS
+	- Grid
 - Tailwind CSS
 
 ## Author

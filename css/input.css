@@ -17,6 +17,7 @@ body {
 }
 
 .attribution a {
+	text-decoration: underline;
 	color: hsl(228, 45%, 44%);
 }
 

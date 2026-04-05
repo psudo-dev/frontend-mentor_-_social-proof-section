@@ -582,6 +582,7 @@ body {
   text-align: center;
 }
 .attribution a {
+  text-decoration: underline;
   color: hsl(228, 45%, 44%);
 }
 .main-content {

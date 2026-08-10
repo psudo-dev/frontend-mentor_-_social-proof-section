@@ -2,24 +2,13 @@
 
 # Frontend Mentor - Social Proof Section
 
-[![Frontend Mentor](https://img.shields.io/badge/Frontend%20Mentor-Social%20Proof%20Section-2ec866?style=flat-square&logo=frontendmentor)](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA)
-
-## Table of Contents
-
-- [Frontend Mentor - Social Proof Section](#frontend-mentor---social-proof-section)
-	- [Table of Contents](#table-of-contents)
-	- [Overview](#overview)
-		- [Live Demo](#live-demo)
-	- [Frontend Mentor](#frontend-mentor)
-		- [The Challenge](#the-challenge)
-	- [Commentary](#commentary)
-	- [Built Using](#built-using)
-	- [Author](#author)
-	- [License](#license)
+[![Frontend Mentor](https://img.shields.io/badge/Newbie-Social%20Proof%20Section-47B6D4?style=flat-square&logo=frontendmentor)](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA)
 
 ## Overview
 
-I'm back to studying programming and I've started with the good old HTML and CSS. After finishing the course - and learning a bit of Tailwind - I'm tackling some [Frontend Mentor](https://www.frontendmentor.io) challenges to put into practice everything I've learned as I continue my studies.
+[Frontend Mentor](https://www.frontendmentor.io) is a great platform to keep studying and practicing front-end development, letting you focus on the code itself without worrying about design or UI. It offers a wide variety of projects, from challenges that only require HTML and CSS to full-stack builds, spanning multiple difficulty levels from newbie to advanced.
+
+This makes it easy to test out whatever you're currently studying — whether that's accessibility, Tailwind, TypeScript, or even React and Next.js — and you can make projects as complete and complex as you like, simulating APIs or databases along the way. It's a great playground to sharpen your skills, adaptable to whatever you need at the time.
 
 ### Live Demo
 
@@ -43,7 +32,7 @@ Your users should be able to:
 
 Want some support on the challenge? [Join the Frontend Mentor community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
 
-## Commentary
+## Development Notes
 
 I've also decided to build some of the challenges with Tailwind CSS - including this one - since that's new to me. I know it's not the usual way to use Tailwind but it should be a good training.
 

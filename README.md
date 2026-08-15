@@ -2,7 +2,7 @@
 
 # Frontend Mentor - Social Proof Section
 
-[![Frontend Mentor](https://img.shields.io/badge/Newbie-Social%20Proof%20Section-47B6D4?style=flat-square&logo=frontendmentor)](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+[![Frontend Mentor](https://img.shields.io/badge/Newbie-Social%20Proof%20Section-47B6D4?style=flat-square&logo=frontendmentor)](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-2C4ADD?style=flat-square&logo=css&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
 ## Overview
 
@@ -46,8 +46,8 @@ To think I used to hate these HTML and CSS challenges - back then when I first l
 
 - HTML
 - CSS
-	- Flexbox
-	- Grid
+    - Flexbox
+    - Grid
 - Tailwind CSS
 
 ## Author
